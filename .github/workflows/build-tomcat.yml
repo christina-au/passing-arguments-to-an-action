@@ -40,4 +40,5 @@ jobs:
 
     - name: Compile Tomcat
       run: |
+        cd ./tomcat
         ant
